@@ -362,3 +362,31 @@ footer.site{background:var(--dark);color:#E9E7E1;padding:56px 0 0}
 .foot-brand img{width:84px;height:auto;display:block;opacity:.9}
 
 .ed .emblem-wrap{max-width:230px;margin-top:2rem;padding-bottom:0}
+
+/* Meaning of Hunridge: header uses both halves, curve sits closer, faint symbol */
+.ed .has-wm{position:relative;overflow:hidden}
+.ed .has-wm>.wrap{position:relative}
+.ed .wm{position:absolute;right:max(2vw,1rem);top:clamp(1rem,3vw,2.5rem);width:clamp(170px,24vw,330px);color:#F6F3EE;opacity:.06;pointer-events:none}
+.ed .wm svg{width:100%;height:auto;display:block}
+.ed .name-head{grid-column:1/8}
+.ed .name-intro{grid-column:8/13;align-self:end;margin:0 0 .35rem;max-width:22rem;color:#E9E4DC}
+.ed .elev{margin-top:clamp(.5rem,2vw,1.5rem)}
+/* closing: aligned columns, clear sign-off, logo mark */
+.ed .closing .grid{align-items:baseline}
+.ed .closing .c-a,.ed .closing .c-b{margin-top:clamp(2rem,4vw,3rem)}
+.ed .closing .c-b p{font-size:1.15rem;line-height:1.6;color:var(--ink)}
+.ed .closing .c-end{grid-column:1/-1;margin-top:clamp(2.5rem,5vw,4rem);padding-top:1.75rem;border-top:1px solid var(--hair);font-family:var(--serif);font-style:italic;font-weight:300;font-size:clamp(1.8rem,3.6vw,3rem);line-height:1.15;color:var(--ink)}
+.ed .closing .c-mark{grid-column:1/-1;display:flex;justify-content:center;margin-top:clamp(2.5rem,5vw,4rem)}
+.ed .closing .c-mark svg{width:64px;height:auto;color:var(--taupe)}
+@media (max-width:860px){.ed .name-head,.ed .name-intro{grid-column:1/-1}.ed .name-intro{margin-top:1.5rem;max-width:none}.ed .wm{opacity:.05}}
+/* About header on the same grid as the sections below */
+.about-intro{display:grid;grid-template-columns:1fr 2fr;column-gap:96px;padding:64px 0 48px;border-bottom:1px solid var(--hair)}
+.about-intro .eyebrow,.about-intro h1{grid-column:1/-1}
+.about-intro .eyebrow{margin-bottom:28px}
+.about-intro h1{margin-bottom:28px}
+.about-intro .lead{grid-column:2;max-width:680px;color:var(--ink-soft)}
+.about-grid .body,.about-grid .body p{color:var(--ink-soft)}
+@media (max-width:1020px){.about-intro{grid-template-columns:1fr;padding:40px 0 36px}.about-intro .lead{grid-column:1}}
+
+.ed .closing .grid .c-end{grid-column:1/-1;max-width:none;width:100%}
+.ed .closing .grid .c-mark{grid-column:1/-1}
