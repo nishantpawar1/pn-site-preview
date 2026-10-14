@@ -356,3 +356,9 @@ footer.site{background:var(--dark);color:#E9E7E1;padding:56px 0 0}
 
 .apps .list a{display:flex;align-items:center;text-align:left}
 .apps .list a span[aria-hidden]{margin-left:auto}
+
+.ed .brandmark{display:block;width:clamp(96px,11vw,140px);height:auto;margin:clamp(1rem,3vw,2rem) 0 0}
+.foot-brand{display:inline-block;margin-top:24px}
+.foot-brand img{width:84px;height:auto;display:block;opacity:.9}
+
+.ed .emblem-wrap{max-width:230px;margin-top:2rem;padding-bottom:0}
