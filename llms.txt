@@ -1,10 +1,10 @@
 # PN & Co. International
 
-> Independent international trading company based in the United Arab Emirates. It owns Hunridge, a premium apparel brand designed in Dubai, and offers fabric sourcing and consultation to apparel businesses.
+> Independent international trading company based in the United Arab Emirates. It offers fabric sourcing and consultation to apparel businesses and owns Hunridge, a premium apparel brand designed in Dubai.
 
 ## Pages
-- [Home](https://www.example.com/): Hunridge first, then fabric sourcing for businesses.
-- [Hunridge](https://www.example.com/hunridge.html): The Hunridge story. Premium apparel focused on quality, founded in Dubai.
+- [Home](https://www.example.com/): The company, its two businesses (fabric sourcing and consultation, and the Hunridge brand) and the fabric library.
+- [Hunridge](https://www.example.com/hunridge.html): Short page about Hunridge, a premium apparel brand focused on quality, designed in Dubai. The brand has its own online store.
 - [Fabric Sourcing](https://www.example.com/fabric-sourcing.html): Fabric sourcing and consultation for fashion brands, garment manufacturers, wholesalers, retailers and institutional buyers.
 - [Fabric Library](https://www.example.com/fabric-library.html): Collections of fabrics for apparel: bamboo, rayon and fashion blends; nylon performance; polyester and technical stretch.
 - [About](https://www.example.com/about.html): The company and how it works.

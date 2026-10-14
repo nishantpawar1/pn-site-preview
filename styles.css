@@ -390,3 +390,13 @@ footer.site{background:var(--dark);color:#E9E7E1;padding:56px 0 0}
 
 .ed .closing .grid .c-end{grid-column:1/-1;max-width:none;width:100%}
 .ed .closing .grid .c-mark{grid-column:1/-1}
+
+.brand-tile{width:344px;height:280px;display:grid;place-items:center;background:var(--stone);border-radius:6px}
+.brand-tile img{width:130px!important;height:auto!important;object-fit:contain}
+@media (max-width:860px){.brand-tile{width:100%;height:auto;aspect-ratio:16/10}}
+.ed .pts-text{grid-column:7/13;display:flex;flex-direction:column;gap:1.5rem}
+.ed .pts-text .serif-close{font-family:var(--serif);font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1.2;color:var(--ink)}
+.ed .pts-text .serif-close em{color:var(--taupe)}
+.ed .pts-text .actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:.5rem}
+.ed .pts-text .note{font-size:.9rem;color:var(--taupe)}
+@media (max-width:860px){.ed .pts-text{grid-column:1/-1;margin-top:2rem}}
